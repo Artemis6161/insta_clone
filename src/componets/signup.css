@@ -1,0 +1,49 @@
+/* .signup{
+    display: flex;
+   justify-content: center;
+  
+} */
+.signup{
+    background-image: url("https://tse3.mm.bing.net/th?id=OIP.9CL_fe2H99PliY9NKgLpcwHaEK&pid=Api&P=0&h=220");
+    background-size: cover;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.form{
+    background-color: #ffffff69;
+    padding:5vh;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.signup_logo{
+    width:20vh;
+    object-fit: contain;
+    padding-top: 20px ;
+}
+.form_header{
+    color: rgba(var(--f52,142,142,142),1);
+    font-size: 17px;
+    font-weight: 600;
+    margin: 0px 40px 20px 40px;
+}
+input{
+    padding: 1vh;
+    margin: .5vh;
+    outline: none;
+    width:100%;
+    box-sizing: border-box;
+}
+.submit_btn{
+    background-color: #1773EA;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    width: 80%;
+    cursor: pointer;
+    margin-top: 8px;
+}
